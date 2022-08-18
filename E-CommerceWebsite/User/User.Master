@@ -18,7 +18,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="../TemplateFiles/images/favicon.png" type="">
 
-  <title> Feane </title>
+  <title> Shoppify </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="../TemplateFiles/css/bootstrap.css" />
@@ -34,6 +34,23 @@
   <link href="../TemplateFiles/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="../TemplateFiles/css/responsive.css" rel="stylesheet" />
+       <!-- jQery -->
+  <script src="../TemplateFiles/js/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(function () {
+            //get full url from the address bar
+            var url = window.location.href;
+
+            //changes the value in every anchor tag
+            $("#navbarSupportedContent a").each(function () {
+                if (url == (this.href)) {
+                    $(this).closest("li").addClass("active");
+                }
+
+            })
+        })
+    </script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -51,7 +68,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Feane
+              Shoppify
             </span>
           </a>
 
@@ -61,7 +78,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -239,8 +256,7 @@
 
     </form>
 
-    <!-- jQery -->
-  <script src="../TemplateFiles/js/jquery-3.4.1.min.js"></script>
+ 
   <!-- popper js -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
