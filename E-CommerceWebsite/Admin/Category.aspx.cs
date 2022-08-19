@@ -23,7 +23,7 @@ namespace E_CommerceWebsite.Admin
 
         protected void btnAddorUpdate_Click(object sender, EventArgs e)
         {
-            string actionName = string.Empty, imgPath = string.Empty, fileExtension = string.Empty;
+            string actionName = string.Empty, imagePath = string.Empty, fileExtension = string.Empty;
             bool isValidToExecute = false;
             int categoryId = Convert.ToInt32(hdnId.Value);
             con = new SqlConnection(Connection.GetConnectionString());
@@ -38,9 +38,9 @@ namespace E_CommerceWebsite.Admin
                 {
                     Guid obj = Guid.NewGuid();
                     fileExtension = Path.GetExtension(fuCategoryImage.FileName);
-                    imgPath = "Images/Category/" + obj.ToString() + fileExtension;
+                    imagePath = "Images/Category/" + obj.ToString() + fileExtension;
                     fuCategoryImage.PostedFile.SaveAs(Server.MapPath("~/Images/Category/") + obj.ToString() + fileExtension);
-                    cmd.Parameters.AddWithValue("@ImageUrl", imgPath);
+                    cmd.Parameters.AddWithValue("@ImageUrl", imagePath);
                     isValidToExecute = true;
 
                 }
