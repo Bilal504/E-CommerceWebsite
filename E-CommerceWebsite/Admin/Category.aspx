@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Category.aspx.cs" Inherits="E_CommerceWebsite.Admin.Category" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
+<%@ Import Namespace="E_CommerceWebsite" %>
     <script>
         window.onload = function () {
             var seconds = 5;
@@ -68,10 +68,60 @@
                                                     Onclick="btnAddorUpdate_Click"/>
                                                 &nbsp;
                                                  <asp:Button ID="btnClear" runat="server" Text="Clear" CssClass="btn btn-primary" 
-                                                     CausesValidation="false"/>
+                                                     CausesValidation="false" OnClick="btnClear_Click"/>
                                             </div>
                                             <div>
                                                 <asp:Image ID="imgCategory" runat="server" CssClass="img-thumbnail" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-8 col-lg-8 mobile-inputs">
+                                        <h4 class="sub-title">Category List</h4>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <asp:Repeater ID="rCategory" runat="server" OnItemCommand="rCategory_ItemCommand"
+                                                    OnItemDataBound="rCategory_ItemDataBound">
+                                                    <HeaderTemplate>
+                                                        <table class="table data-table-export table-hover nowrap">
+                                                            <thead>
+                                                            <tr>
+                                                                <th class="table-plus">Name</th>
+                                                                <th>Images</th>
+                                                                <th>IsActive</th>
+                                                                <th>CreatedDate</th>
+                                                                <th class="datatable-nosort">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                             <tbody>
+                                                    </HeaderTemplate>                            
+                                                    <ItemTemplate>
+                                                        <tr>
+                                                            <td><%#Eval("Name") %></td>
+                                                            <td>
+                                                                <img alt="" width="50" src="<%# Utils.GetImageUrl(Eval("ImageUrl")) %>" />
+                                                            </td>
+                                                            <td>
+                                                                <asp:Label ID="lblIsActive" runat="server" Text='<%# Eval("IsActive") %>'></asp:Label>
+                                                            </td>
+                                                            <td><%#Eval("CreatedDate") %></td>
+                                                            <td>
+                                                                <asp:LinkButton ID="lnkEdit" Text="Edit" runat="server" CssClass="badge badge-primary"
+                                                                    CommandArgument='<%# Eval("CategoryId") %>' CommandName="edit">
+                                                                    <i class="ti-pencil"></i>
+                                                                </asp:LinkButton>
+                                                                <asp:LinkButton ID="lnkDelete" Text="Delete" runat="server" CommandName="delete" 
+                                                                    CssClass="badge badge-danger" CommandArgument='<%# Eval("CategoryId") %>'
+                                                                    OnClientClick="return confirm('Do you want to Delete this category?');">                                                                  
+                                                                    <i class="ti-trash"></i>
+                                                                </asp:LinkButton>
+                                                            </td>
+                                                        </tr>
+                                                    </ItemTemplate>
+                                                        <FooterTemplate>
+                                                            </tbody>
+                                                            </table>
+                                                        </FooterTemplate>
+                                                </asp:Repeater>
                                             </div>
                                         </div>
                                     </div>
