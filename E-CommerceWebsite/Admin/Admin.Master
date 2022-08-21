@@ -33,9 +33,9 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
 
     <!--Datatables-->
-     <link rel="stylesheet" type="text/css" href="../assets/datatables/css/dataTables.bootstrap4.min.css">
-     <link rel="stylesheet" type="text/css" href="../assets/datatables/css/responsive.bootstrap4.min.css">
-     <link rel="stylesheet" type="text/css" href="../assets/datatables/css/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/datatables/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/datatables/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/datatables/css/icon-font.min.css">
 
     <script type="text/javascript" src="../assets/js/jquery/jquery.min.js"></script>
     <script>
@@ -138,7 +138,7 @@
                                         <li>
                                             <a href="auth-normal-sign-in.html">
                                                 <i class="ti-layout-sidebar-left"></i>Logout
-                                        </a>
+                                            </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -150,7 +150,7 @@
                     <div class="pcoded-wrapper">
                         <nav class="pcoded-navbar">
                             <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
-                            
+
 
 
                             <div class="pcoded-inner-navbar main-menu">
@@ -181,7 +181,7 @@
                                 <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Product Crud</div>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
-                                        <a href="chart.html">
+                                        <a href="Product.aspx">
                                             <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
                                             <span class="pcoded-mtext" data-i18n="nav.form-components.main">Product</span>
                                             <span class="pcoded-mcaret"></span>
@@ -198,31 +198,55 @@
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                 </ul>
+                                <%-- User's List --%>
+
+
+                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's List</div>
+                                <ul class="pcoded-item pcoded-left-item">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Users</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                </ul>
+
+
+                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's Feedback/Query</div>
+                                <ul class="pcoded-item pcoded-left-item">
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Contact</span>
+                                            <span class="pcoded-mcaret"></span>
+                                        </a>
+                                </ul>
+
                             </div>
                         </nav>
                         <div class="pcoded-content">
-                                <div class="card borderless-card">
-                                            <div class="card-block warning-breadcrumb">
-                                                <div class="page-header-breadcrumb">
-                                                    <ul class="breadcrumb-title">
-                                                        <li class="breadcrumb-item">
-                                                            <a href="#!">
-                                                                <i class="icofont icofont-home"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="breadcrumb-item"><a href="Dashboard.aspx">Dashboard</a>
-                                                        </li>
-                                                        <li class="breadcrumb-item"><a href="#!"><%Response.Write(Session["breadCrum"]); %></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                               </asp:ContentPlaceHolder>
+                            <div class="card borderless-card">
+                                <div class="card-block warning-breadcrumb">
+                                    <div class="page-header-breadcrumb">
+                                        <ul class="breadcrumb-title">
+                                            <li class="breadcrumb-item">
+                                                <a href="#!">
+                                                    <i class="icofont icofont-home"></i>
+                                                </a>
+                                            </li>
+                                            <li class="breadcrumb-item"><a href="Dashboard.aspx">Dashboard</a>
+                                            </li>
+                                            <li class="breadcrumb-item"><a href="#!"><%Response.Write(Session["breadCrum"]); %></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
                         </div>
                     </div>
-                 
+
                 </div>
             </div>
         </div>
@@ -230,7 +254,7 @@
     </form>
 
     <!-- Required Jquery -->
-    
+
     <script type="text/javascript" src="../assets/js/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../assets/js/popper.js/popper.min.js"></script>
     <script type="text/javascript" src="../assets/js/bootstrap/js/bootstrap.min.js"></script>
@@ -261,7 +285,7 @@
                 nav.removeClass('active');
             }
         });
-</script>
+    </script>
     <script src="../assets/datatables/js/jquery.dataTables.min.js"></script>
     <script src="../assets/datatables/js/dataTables.bootstrap4.min.js"></script>
     <script src="../assets/datatables/js/dataTables.responsive.min.js"></script>
@@ -270,12 +294,12 @@
     <script src="../assets/datatables/js/dataTables.buttons.min.js"></script>
     <script src="../assets/datatables/js/buttons.bootstrap4.min.js"></script>
     <script src="../assets/datatables/js/buttons.print.min.js"></script>
-     <script src="../assets/datatables/js/buttons.html5.min.js"></script>
-     <script src="../assets/datatables/js/buttons.flash.min.js"></script>
-     <script src="../assets/datatables/js/pdfmake.min.js"></script>
-     <script src="../assets/datatables/js/vfs_fonts.js"></script>
+    <script src="../assets/datatables/js/buttons.html5.min.js"></script>
+    <script src="../assets/datatables/js/buttons.flash.min.js"></script>
+    <script src="../assets/datatables/js/pdfmake.min.js"></script>
+    <script src="../assets/datatables/js/vfs_fonts.js"></script>
 
-     <script src="../assets/datatables/js/datatable-setting.js"></script>
-    
+    <script src="../assets/datatables/js/datatable-setting.js"></script>
+
 </body>
 </html>
