@@ -77,6 +77,14 @@
                                     </div>
                                     <div class="col-sm-6 col-md-8 col-lg-8 mobile-inputs">
                                         <h4 class="sub-title">Category List</h4>
+                                        <%-- Bug Fixed --%>
+
+                                         <div class="card-block table-border-style">
+                                                <div class="table-responsive">
+                                                    <asp:Repeater ID="rCategory" runat="server" OnItemCommand="rCategory_ItemCommand" OnItemDataBound="rCategory_ItemDataBound" >
+                                                        
+                                        <%-- END --%>
+
                                                     <HeaderTemplate>
                                                         <table class="table data-table-export table-hover nowrap">
                                                             <thead>

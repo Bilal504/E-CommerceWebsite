@@ -87,30 +87,12 @@ namespace E_CommerceWebsite.Admin
         protected global::System.Web.UI.WebControls.Image imgCategory;
 
         /// <summary>
-        /// lblIsActive control.
+        /// rCategory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblIsActive;
-
-        /// <summary>
-        /// lnkEdit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkEdit;
-
-        /// <summary>
-        /// lnkDelete control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkDelete;
+        protected global::System.Web.UI.WebControls.Repeater rCategory;
     }
 }
