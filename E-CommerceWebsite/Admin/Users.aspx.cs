@@ -19,8 +19,17 @@ namespace E_CommerceWebsite.Admin
         {
             if(!IsPostBack)
             {
-                getusers();
+                
                 Session["breadCrum"] = "Users";
+                if (Session["admin"] == null)
+                {
+                    Response.Redirect("../User/Login.aspx");
+                }
+                else
+                {
+                    getusers();
+                }
+
             }
 
         }
