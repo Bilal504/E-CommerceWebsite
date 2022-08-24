@@ -22,6 +22,44 @@ namespace E_CommerceWebsite.User
 
                 pnlSliderUC.Controls.Add(sliderUserControl);
             }
+            if (Session["userId"] != null)
+            {
+                lbLoginorLogout.Text = "Logout";
+            }
+            else
+            {
+                lbLoginorLogout.Text = "Login";
+            }
+
+        }
+
+        protected void lbLoginorLogout_Click(object sender, EventArgs e)
+        {
+            if (Session["userId"]==null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                Session.Abandon();
+                Response.Redirect("Login.aspx");
+            }
+        }
+
+        protected void lbRegisterOrProfile_Click(object sender, EventArgs e)
+        {
+
+            if (Session["userId"] != null)
+            {
+                lbRegisterOrProfile.ToolTip = "User Profile";
+                Response.Redirect("Profile.aspx");
+            }
+            else
+            {
+                lbRegisterOrProfile.ToolTip = "User Registration";
+                Response.Redirect("Registration.aspx");
+            }
+
 
         }
     }

@@ -21,7 +21,15 @@ namespace E_CommerceWebsite.Admin
             if (!IsPostBack)
             {
                 Session["breadCrum"] = "Product";
-                getProduct();
+                if (Session["admin"] == null)
+                {
+                    Response.Redirect("../User/Login.aspx");
+                }
+                else
+                {
+                    getProduct();
+                }
+                
             }
             lblMsg.Visible = false;
         }
