@@ -109,7 +109,10 @@
                                 <i class="ti-menu"></i>
                             </a>
                             <a href="index.html">
-                                <img class="img-fluid" src="../assets/images/logo.png" alt="Theme-Logo" />
+
+                                <img class="img-fluid" 
+                                    src="../assets/images/logo.png" height="60" width="60"  alt="Theme-Logo" />
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span><b><i>Admin</i></b></span>
                             </a>
                             <a class="mobile-options">
                                 <i class="ti-more"></i>
