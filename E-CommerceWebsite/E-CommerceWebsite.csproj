@@ -183,6 +183,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\Category\electronics.jpeg" />
     <Content Include="Images\login.jpg" />
+    <Content Include="TemplateFiles\css\about.css" />
     <Content Include="TemplateFiles\css\bootstrap.css" />
     <Content Include="TemplateFiles\css\font-awesome.min.css" />
     <Content Include="TemplateFiles\css\responsive.css" />

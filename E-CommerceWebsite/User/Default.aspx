@@ -141,7 +141,6 @@
             <div class="box">
               <div class="detail-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
                 </p>
                 <h6>
                   Moana Michell

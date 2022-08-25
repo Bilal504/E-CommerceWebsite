@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="E_CommerceWebsite.User.About" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+   
+     <link href="../TemplateFiles/css/about.css" rel="stylesheet"/>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -18,24 +21,91 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Feane
+                We Are Shopify
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet. These business transactions occur either as business-to-business (B2B), business-to-consumer (B2C), consumer-to-consumer or consumer-to-business.
+              Our mission is to make it easy for you to build the software you need. Everyone should be able to do it – doesn’t matter what your background, tech knowledge or budget is.
             </p>
-            <a href="">
-              Read More
-            </a>
+       
           </div>
         </div>
       </div>
     </div>
   </section>
-
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Bilal Imran</h3>
+          <h4 class="title">Software Engineer GL</h4>
+        </div>
+        <ul class="social">
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Akshay Srivastava</h3>
+          <h4 class="title">Software Engineer GL</h4>
+        </div>
+        <ul class="social">
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Garvit Parakh</h3>
+          <h4 class="title">Software Engineer GL</h4>
+        </div>
+        <ul class="social">
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Himanshu Singh</h3>
+          <h4 class="title">Software Engineer GL</h4>
+        </div>
+        <ul class="social">
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li>
+          <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- end about section -->
 
 </asp:Content>
