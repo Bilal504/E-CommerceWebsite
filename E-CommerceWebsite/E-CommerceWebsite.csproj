@@ -184,6 +184,7 @@
     <Content Include="Images\Category\electronics.jpeg" />
     <Content Include="Images\login.jpg" />
     <Content Include="Images\User\img.jpg" />
+    <Content Include="TemplateFiles\css\about.css" />
     <Content Include="TemplateFiles\css\bootstrap.css" />
     <Content Include="TemplateFiles\css\font-awesome.min.css" />
     <Content Include="TemplateFiles\css\Payment.css" />
