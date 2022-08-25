@@ -89,5 +89,10 @@ namespace E_CommerceWebsite.User
                 }
             }
         }
+
+        protected void lbUpdateCart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
