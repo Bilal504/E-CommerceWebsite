@@ -4,9 +4,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <%--<%
+    <%
         string imageUrl = Session["imageUrl"].ToString();
-    %>--%>
+        //string imageUrl = "Image/User/" +imageUrls;
+    %>
 
 
     
@@ -32,8 +33,13 @@
                                     <div class=" d-flex justify-content-start">
                                         <div class="image-container">
 
-<%--                                            <img src=" <%= Utils.GetImageUrl(imageUrl) %> " id="imgProfile" style="width: 150px; height: 150px;"
+                                            <%--  <%= Utils.GetImageUrl(imageUrl) %> --%>
+
+<%--                                            <img src="..Images\User\img.jpg" id="imgProfile" style="width: 150px; height: 150px;"
                                                 class="img-thumbnail" />--%>
+
+                                            <%--<img src="../Images/User/img.jpg" style="width: 150px; height: 150px;" class="img-thumbnail"/>--%>
+                                            <img src="../Images/User/img.jpg" style="width: 150px; height: 150px;" class="img-thumbnail"/>
 
                                             <div class="middle pt-2">
                                                 <a href="Registration.aspx?id=<%Response.Write(Session["userId"]);%> "
@@ -158,7 +164,7 @@
                                                             </div>
 
                                                             <div class="col-md-8 col-6">
-                                                                <%# Eval("PostalCode") %>
+                                                                <%# Eval("PostCode") %>
                                                             </div>
                                                         </div>
                                                         <hr />

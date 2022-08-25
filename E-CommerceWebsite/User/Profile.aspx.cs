@@ -20,7 +20,7 @@ namespace E_CommerceWebsite.User
         {
             if (!IsPostBack)
             {
-                if (Session["userId"] != null)
+                if (Session["userId"] == null)
                 {
                     Response.Redirect("Login.aspx");
                 }
