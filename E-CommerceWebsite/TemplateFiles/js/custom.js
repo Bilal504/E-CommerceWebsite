@@ -27,6 +27,34 @@ $(window).on('load', function () {
             columnWidth: ".all"
         }
     })
+    $(document).ready(function () {
+        function getUrlVars() {
+            var vars = [], hash;
+            var hashes = windows.location.href.slice(window.location.href.indexof('?') + 1).split('&');
+            for (var i = 0; i < hashes.length; i++) {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        };
+
+        var id = getUrlVars()["id"];
+        if (id > 0) {
+            $('.filters_menu li').removeClass('active');
+        }
+        $('.filters_menu li').each(function () {
+            if (id == this.attributes["data-id"].value) {
+                $(this).closest("li").addClass("active");
+                var data = $(this).attr('data-filter');
+                $grid.isotope({
+                    filter: data
+                })
+
+                return;
+            }
+        });
+    });
 });
 
 // nice select
