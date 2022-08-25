@@ -22,6 +22,7 @@
               </div>
               <div class="detail-box">
                 <h5>
+                  Big Sale Day - Thursdays
                    <%# Eval("Name") %>>
                 </h5>
                 <h6>
@@ -108,7 +109,7 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Feane
+                We Are Shopify
               </h2>
             </div>
             <p>
