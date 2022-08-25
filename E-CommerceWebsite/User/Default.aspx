@@ -29,7 +29,7 @@
                   <span>20%</span> Off
                 </h6>
                 <a href="Menu.aspx?id=<%# Eval("CategoryId") %>">
-                  Order Now <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                  Order Now <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456 456;" xml:space="preserve">
                     <g>
                       <g>
                         <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
@@ -113,12 +113,9 @@
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+              In 2022, Shopify's online sales increased by 97%. Amazon's Q2 sales and profit growth was only 40%. It's not just the big guys either, benefiting from consumers' spiked appetite for online shopping. 
             </p>
-            <a href="">
+            <a href="about.aspx">
               Read More
             </a>
           </div>

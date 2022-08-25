@@ -9,14 +9,13 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      One Place All Solution
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                    </p>
+                      In 2022, Shopify's online sales increased by 97%. Amazon's Q2 sales and profit growth was only 40%. It's not just the big guys either, benefiting from consumers' spiked appetite for online shopping. </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
-                        Order Now
+                      <a href="Login.aspx" class="btn1">
+                        Buy Now
                       </a>
                     </div>
                   </div>
@@ -30,14 +29,13 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      The E-Commerce- : All you want
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
-                        Order Now
+                      <a href="Login.aspx" class="btn1">
+                        Buy Now
                       </a>
                     </div>
                   </div>
@@ -51,13 +49,12 @@
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      Fast Food Restaurant
+                      One Place All Solution
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                    </p>
+                      In 2022, Shopify's online sales increased by 97%. Amazon's Q2 sales and profit growth was only 40%. It's not just the big guys either, benefiting from consumers' spiked appetite for online shopping.                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="Menu.aspx" class="btn1">
                         Order Now
                       </a>
                     </div>
