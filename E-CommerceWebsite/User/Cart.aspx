@@ -84,8 +84,11 @@
                   </asp:LinkButton>
               </td>
               <td>
-                   <asp:LinkButton ID="lbCheckout" runat="server" CommandName="checkout" CssClass="btn btn-success">
-                      Checkout<i class="fa fa-arrow-circle-right mr-2"></i></asp:LinkButton>
+                     <td colspan="2" class="continue__btn">
+                  <a href="Payment.aspx" class="btn btn-success">Checkout<i class="fa fa-arrow-circle-right mr-2"></i></a>
+                   <%--<asp:LinkButton ID="lbCheckout" runat="server" CommandName="checkout" CssClass="btn btn-success">
+                      Checkout<i class="fa fa-arrow-circle-right mr-2"></i>
+                   </asp:LinkButton>--%>
               </td>
           </tr>
           </tbody>
