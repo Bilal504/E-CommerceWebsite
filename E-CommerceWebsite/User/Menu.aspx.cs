@@ -53,7 +53,7 @@ namespace E_CommerceWebsite.User
         {
             if (Session["userid"] != null)
             {
-                bool isCartItemUpdated ;
+                bool isCartItemUpdated;
                 int i = isItemExistInCart(Convert.ToInt32(e.CommandArgument));
                 if (i == 0)
                 {
@@ -70,13 +70,13 @@ namespace E_CommerceWebsite.User
                         con.Open();
                         cmd.ExecuteNonQuery();
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         Response.Write("<script>alert('Error - " + ex.Message + " ');<script>");
                     }
                     finally
                     {
-                        con.Close();   
+                        con.Close();
                     }
 
                 }
@@ -85,8 +85,8 @@ namespace E_CommerceWebsite.User
                     //Adding existing item into cart
                     Utils utils = new Utils();
                     isCartItemUpdated = utils.updateCartQuantity(i + 1, Convert.ToInt32(e.CommandArgument), Convert.ToInt32(Session["userId"]));
-                    
-                    
+
+
                 }
                 lblMsg.Visible = true;
                 lblMsg.Text = "Item added successfull in your cart!";
@@ -112,7 +112,7 @@ namespace E_CommerceWebsite.User
             dt = new DataTable();
             sda.Fill(dt);
             int quantity = 0;
-            if(dt.Rows.Count > 0)
+            if (dt.Rows.Count > 0)
             {
                 quantity = Convert.ToInt32(dt.Rows[0]["Quantity"]);
             }
@@ -121,4 +121,4 @@ namespace E_CommerceWebsite.User
         }
     }
 }
-        
+

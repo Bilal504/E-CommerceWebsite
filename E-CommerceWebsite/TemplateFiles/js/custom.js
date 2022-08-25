@@ -28,9 +28,9 @@ $(window).on('load', function () {
         }
     })
     $(document).ready(function () {
-        function getUrlVars() { 
+        function getUrlVars() {
             var vars = [], hash;
-            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            var hashes = windows.location.href.slice(window.location.href.indexof('?') + 1).split('&');
             for (var i = 0; i < hashes.length; i++) {
                 hash = hashes[i].split('=');
                 vars.push(hash[0]);
@@ -58,9 +58,9 @@ $(window).on('load', function () {
 });
 
 // nice select
-$(document).ready(function() {
+$(document).ready(function () {
     $('select').niceSelect();
-  });
+});
 
 /** google_map js **/
 function myMap() {
@@ -116,12 +116,10 @@ $(".client_owl-carousel").owlCarousel({
         } else {
             if (oldValue > 1) {
                 var newVal = parseFloat(oldValue) - 1;
-            }
-            else {
+            } else {
                 newVal = 1;
             }
         }
+        $button.parent().find('input').val(newVal);
     });
-    $button.parent().find('input').val(newVal);
-});
-}(jQuery);
+}) (jQuery);

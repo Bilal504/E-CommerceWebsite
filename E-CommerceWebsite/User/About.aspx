@@ -8,7 +8,7 @@
 
     <!-- about section -->
 
-  <section class="about_section layout_padding">
+ <%-- <section class="about_section layout_padding">
     <div class="container  ">
 
       <div class="row">
@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>--%>
 <div class="container">
   <div class="row">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
