@@ -17,7 +17,7 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Tasty Thursdays
+                  Big Sale Day - Thursdays
                 </h5>
                 <h6>
                   <span>20%</span> Off
@@ -170,7 +170,7 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Feane
+                We Are Shopify
               </h2>
             </div>
             <p>
