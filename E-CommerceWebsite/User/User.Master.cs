@@ -45,5 +45,22 @@ namespace E_CommerceWebsite.User
                 Response.Redirect("Login.aspx");
             }
         }
+
+        protected void lbRegisterOrProfile_Click(object sender, EventArgs e)
+        {
+
+            if (Session["userId"] != null)
+            {
+                lbRegisterOrProfile.ToolTip = "User Profile";
+                Response.Redirect("Profile.aspx");
+            }
+            else
+            {
+                lbRegisterOrProfile.ToolTip = "User Registration";
+                Response.Redirect("Registration.aspx");
+            }
+
+
+        }
     }
 }
