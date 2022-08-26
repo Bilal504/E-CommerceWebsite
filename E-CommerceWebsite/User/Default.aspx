@@ -144,10 +144,10 @@
                 <p>
                 </p>
                 <h6>
-                  Moana Michell
+                  Elon Baba
                 </h6>
                 <p>
-                  magna aliqua
+                  EXcellent service. I will soon buy this company
                 </p>
               </div>
               <div class="img-box">
@@ -159,13 +159,12 @@
             <div class="box">
               <div class="detail-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
+                 Good Boys and they work hard in deliverying good. Proper  E commerce Feel giving Company             </p>
                 <h6>
-                  Mike Hamell
+                  Alexndera Didario
                 </h6>
                 <p>
-                  magna aliqua
+                  
                 </p>
               </div>
               <div class="img-box">
