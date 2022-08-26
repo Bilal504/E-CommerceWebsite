@@ -39,7 +39,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+          <img class="img-fluid" src="../TemplateFiles/Images/bilal.jpg">
         </div>
         <div class="team-content">
           <h3 class="name">Bilal Imran</h3>
@@ -56,7 +56,7 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+          <img class="img-fluid" src="../TemplateFiles/Images/akshay.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Akshay Srivastava</h3>
@@ -73,7 +73,7 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+          <img class="img-fluid" src="../TemplateFiles/Images/garvit.jpg">
         </div>
         <div class="team-content">
           <h3 class="name">Garvit Parakh</h3>
@@ -90,7 +90,7 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="our-team">
         <div class="picture">
-          <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+          <img class="img-fluid" src="/TemplateFiles/Images/himanshu.jpeg">
         </div>
         <div class="team-content">
           <h3 class="name">Himanshu Singh</h3>

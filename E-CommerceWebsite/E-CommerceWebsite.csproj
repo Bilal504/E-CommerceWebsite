@@ -191,6 +191,8 @@
     <Content Include="TemplateFiles\css\responsive.css" />
     <Content Include="TemplateFiles\css\style.css" />
     <Content Include="TemplateFiles\images\about-img.png" />
+    <Content Include="TemplateFiles\images\akshay.jpeg" />
+    <Content Include="TemplateFiles\images\bilal.jpg" />
     <Content Include="TemplateFiles\images\client1.jpg" />
     <Content Include="TemplateFiles\images\client2.jpg" />
     <Content Include="TemplateFiles\images\f1.png" />
@@ -203,7 +205,9 @@
     <Content Include="TemplateFiles\images\f8.png" />
     <Content Include="TemplateFiles\images\f9.png" />
     <Content Include="TemplateFiles\images\favicon.png" />
+    <Content Include="TemplateFiles\images\garvit.jpg" />
     <Content Include="TemplateFiles\images\hero-bg.jpg" />
+    <Content Include="TemplateFiles\images\himanshu.jpeg" />
     <Content Include="TemplateFiles\images\o1.jpg" />
     <Content Include="TemplateFiles\images\o2.jpg" />
     <Content Include="TemplateFiles\js\bootstrap.js" />
