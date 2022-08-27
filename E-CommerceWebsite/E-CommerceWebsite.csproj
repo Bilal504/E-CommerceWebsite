@@ -183,11 +183,16 @@
     <Content Include="Global.asax" />
     <Content Include="Images\Category\electronics.jpeg" />
     <Content Include="Images\login.jpg" />
+    <Content Include="Images\User\img.jpg" />
+    <Content Include="TemplateFiles\css\about.css" />
     <Content Include="TemplateFiles\css\bootstrap.css" />
     <Content Include="TemplateFiles\css\font-awesome.min.css" />
+    <Content Include="TemplateFiles\css\Payment.css" />
     <Content Include="TemplateFiles\css\responsive.css" />
     <Content Include="TemplateFiles\css\style.css" />
     <Content Include="TemplateFiles\images\about-img.png" />
+    <Content Include="TemplateFiles\images\akshay.jpeg" />
+    <Content Include="TemplateFiles\images\bilal.jpg" />
     <Content Include="TemplateFiles\images\client1.jpg" />
     <Content Include="TemplateFiles\images\client2.jpg" />
     <Content Include="TemplateFiles\images\f1.png" />
@@ -200,17 +205,23 @@
     <Content Include="TemplateFiles\images\f8.png" />
     <Content Include="TemplateFiles\images\f9.png" />
     <Content Include="TemplateFiles\images\favicon.png" />
+    <Content Include="TemplateFiles\images\garvit.jpg" />
     <Content Include="TemplateFiles\images\hero-bg.jpg" />
+    <Content Include="TemplateFiles\images\himanshu.jpeg" />
     <Content Include="TemplateFiles\images\o1.jpg" />
     <Content Include="TemplateFiles\images\o2.jpg" />
     <Content Include="TemplateFiles\js\bootstrap.js" />
     <Content Include="TemplateFiles\js\custom.js" />
     <Content Include="TemplateFiles\js\jquery-3.4.1.min.js" />
     <Content Include="User\About.aspx" />
+    <Content Include="User\Cart.aspx" />
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Default.aspx" />
+    <Content Include="User\Demo.aspx" />
     <Content Include="User\Login.aspx" />
     <Content Include="User\Menu.aspx" />
+    <Content Include="User\Payment.aspx" />
+    <Content Include="User\Profile.aspx" />
     <Content Include="User\Registration.aspx" />
     <Content Include="User\SliderUserControl.ascx" />
     <Content Include="Web.config" />
@@ -263,6 +274,13 @@
     <Compile Include="User\About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -277,6 +295,13 @@
     <Compile Include="User\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\Demo.aspx.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Demo.aspx.designer.cs">
+      <DependentUpon>Demo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -290,6 +315,20 @@
     </Compile>
     <Compile Include="User\Menu.aspx.designer.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
@@ -342,7 +381,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\Product\" />
-    <Folder Include="Images\User\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

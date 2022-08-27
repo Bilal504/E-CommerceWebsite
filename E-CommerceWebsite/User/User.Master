@@ -18,7 +18,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="../TemplateFiles/images/favicon.png" type="">
 
-  <title> Shoppify </title>
+  <title> Shopify </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="../TemplateFiles/css/bootstrap.css" />
@@ -68,7 +68,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Shoppify
+              Shopify
             </span>
           </a>
 
@@ -82,7 +82,7 @@
                 <a class="nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Menu.aspx">Menu</a>
+                <a class="nav-link" href="Menu.aspx">Categories</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="About.aspx">About</a>
@@ -92,11 +92,18 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="" class="user_link">
+                <asp:LinkButton ID="lbRegisterOrProfile" runat="server" CssClass="user_link"
+                    OnClick="lbRegisterOrProfile_Click" CausesValidation="false"> 
+                    <i class="fa fa-user" aria-hidden="true"></i>
+
+                </asp:LinkButton>
+
+          <%--    <a href="" class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
-              </a>
-              <a class="cart_link" href="#">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+              </a>--%>
+
+              <a class="cart_link" href="Cart.aspx">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456 456;" xml:space="preserve">
                   <g>
                     <g>
                       <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
@@ -183,22 +190,22 @@
               Contact Us
             </h4>
             <div class="contact_link_box">
-              <a href="">
+              <a href="https://goo.gl/maps/a4EDJgVGN6j6UKfY9">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
                   Location
                 </span>
               </a>
-              <a href="">
+              <a href="tel:9330976052">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  Call +91 9330976052
                 </span>
               </a>
-              <a href="">
+              <a href="mailto: garvit.parakh@globallogic.com">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  Mail Us
                 </span>
               </a>
             </div>
@@ -206,26 +213,26 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
-              Feane
+            <a href="Default.aspx" class="footer-logo">
+                Shopify
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+              We are team of 4 Developers and we are here to Serve you with Great products at affordable price. We serve better, and speedy delivery of services. The Branches are all around the Globe. We are GlobalLogic
             </p>
             <div class="footer_social">
-              <a href="">
+              <a href="https://www.facebook.com/globallogicindia/">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://twitter.com/globallogic_in?lang=en">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://in.linkedin.com/company/globallogic-india">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/globallogicindia/?hl=en">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://in.pinterest.com/swethagowda101/globallogic/">
                 <i class="fa fa-pinterest" aria-hidden="true"></i>
               </a>
             </div>
@@ -233,14 +240,14 @@
         </div>
         <div class="col-md-4 footer-col">
           <h4>
-            Opening Hours
+            Resources
           </h4>
-          <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
-          </p>
+              <a href="https://policies.google.com/technologies/cookies?hl=en-US">
+                  <i class="fa" aria-hidden="true"></i>
+                  <span>
+                    Cookies
+                  </span>
+                </a>
         </div>
       </div>
       <div class="footer-info">

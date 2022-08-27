@@ -17,10 +17,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="CodedThemes">
     <meta name="keywords" content=" Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
-    <meta name="author" content="CodedThemes">
+    <meta name="author" content="CodedThemes"> 
     <!-- Favicon icon -->
     <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
     <!-- Google font-->
+    <a href="../User/User.Master">../User/User.Master</a>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap/css/bootstrap.min.css">
@@ -108,7 +109,10 @@
                                 <i class="ti-menu"></i>
                             </a>
                             <a href="index.html">
-                                <img class="img-fluid" src="../assets/images/logo.png" alt="Theme-Logo" />
+
+                                <img class="img-fluid" 
+                                    src="../assets/images/logo.png" height="60" width="60"  alt="Theme-Logo" />
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span><b><i>Admin</i></b></span>
                             </a>
                             <a class="mobile-options">
                                 <i class="ti-more"></i>
